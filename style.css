@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#start{
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    color: #27acd9;
+    display: block;
+    background: white;
+}
+
+#main{
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'sans-selif';
+}
+
+#main_table{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 70%;
+    height: 50vh;
+    font-size: calc(3.0vw + 0.8rem);
+    background-color: rgb(213, 238, 213);
+}
+
+.center{
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+.txts{
+    margin-left: 1.6rem;
+    padding-left: 5px;
+    border-left: 2px solid gold;
+    line-height: 30px;
+}
+
+.invalid{
+    pointer-events: none;
+}
+
+.time{
+    font-size: 230%;
+    margin-top: 5px;
+}
+
+.info{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    font-size: calc(1.2vw + 1.1rem);
+    color: rgb(127, 127, 127);
+}
+
+#cnt{
+    width: 30%;
+    margin: 0 auto;
+}
+
+#stat{
+    width: 30%;
+    margin: 0 auto;
+}
+
+/* --- */
+.none{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}

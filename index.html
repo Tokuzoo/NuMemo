@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Countup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main id="main">
+        <h2 class="title">数字記憶テスト</h2>
+        <div class="txts">
+            <p>表示される数字: 8～12個、2回ずつの計10ラウンド</p>
+            <p>暗記時間: (表示されている数字の個数) * 0.7s</p>
+        </div>
+        <button id="start">スタート！</button>
+    </main>
+
+    <div id="disp_page">
+        <table border="1" style="border-collapse: collapse" id="main_table">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <p id="time"></p>
+    </div>
+
+    <div class="info">
+        <p id="cnt"></p>
+        <p id="stat"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+</body>
+</html>
