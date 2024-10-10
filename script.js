@@ -7,7 +7,7 @@ const $list = document.querySelectorAll("#main_table td");
 const $cnt = document.getElementById('cnt');
 const $stat = document.getElementById('stat');
 
-let cnt = 8-1;
+let cnt = 7-1;
 let trial_cnt = 10;
 
 $disp_page.classList.add('hidden');
