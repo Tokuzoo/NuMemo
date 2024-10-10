@@ -75,9 +75,6 @@ function reset(){
     if(trial_cnt === -1){
         setTimeout(function(){
             $stat.textContent = '終了です。おつかれさま';
-            for(const td of $list){
-                td.classList.add('invalid');
-            }
         }, 1500);
 
         return;
